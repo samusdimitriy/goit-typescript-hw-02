@@ -24,7 +24,7 @@ type Page = {
   title: string;
   likes: number;
   accounts: string[];
-  status: string;
+  status: string | "open" | "close";
   details?: {
     createAt: Date;
     updateAt: Date;
